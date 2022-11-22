@@ -12,11 +12,17 @@ h1 {
 color: white;
 background-color: orange;
 }
+h1:hover{
+    background-color: black;
+}
 * {
 margin: 0px;
-padding: 10px;
+padding: 5px;
 box-sizing: border-box;
 background-color: whitesmoke;
+}
+*:hover{
+    background-color: bisque;
 }
 form {
 width: 90%;
@@ -33,11 +39,22 @@ width: 90%;
 border-width: 1px;
 border-color: rgb(25, 78, 2);
 }
+form:hover{
+    background-color: gold;
+    border-color: orange;
+    border width: 2px;
+}
 th,
 td {
 border: 1px solid #000;
 border-width: 2px;
 border-color: rgb(25, 78, 2);
+}
+td:hover{
+    background-color: gold;
+}
+th:hover{
+    background-color: gold;
 }
 h1 {
 color: white;
@@ -64,6 +81,7 @@ flex-direction: column;
 
 <body>
 <h1>Todo App</h1>
+<br>
 <form>
 <input type="text" required>
 <input type="submit">
